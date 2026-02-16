@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Color Grading</title>
+<style>
+body{
+  min-height:100vh;
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:linear-gradient(-45deg,#ff416c,#ff4b2b,#2193b0,#6dd5ed);
+  background-size:400% 400%;
+  animation:gradient 10s ease infinite;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+}
+table{
+  width:90%;
+  max-width:900px;
+  margin:30px auto;
+  border-collapse:collapse;
+  background:rgba(255,255,255,0.15);
+}
+th,td{padding:12px;border:1px solid rgba(255,255,255,0.3);}
+button{
+  padding:14px 35px;
+  border:2px solid white;
+  background:transparent;
+  border-radius:40px;
+}
+button a{color:white;text-decoration:none;}
+@keyframes gradient{
+0%{background-position:0%}
+50%{background-position:100%}
+100%{background-position:0%}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Color Grading</h1>
+
+<button>
+<a href="https://www.youtube.com/watch?v=JpJroVGt5SY" target="_blank">
+Learn Color Grading
+</a>
+</button>
+
+<p>
+Color grading enhances colors to create mood and cinematic feel.
+</p>
+
+<table>
+<tr><th>Technique</th><th>Purpose</th></tr>
+<tr><td>Primary Correction</td><td>Fix brightness & contrast</td></tr>
+<tr><td>Secondary Correction</td><td>Adjust specific colors</td></tr>
+<tr><td>LUTs</td><td>Apply cinematic looks</td></tr>
+<tr><td>Mood Coloring</td><td>Create emotional tone</td></tr>
+<tr><td>Skin Tone Fix</td><td>Maintain natural skin color</td></tr>
+</table>
+
+</body>
+</html>
